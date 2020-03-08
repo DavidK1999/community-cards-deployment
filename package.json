@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-client": "npm i ./community-cards-react && npm run build --prefix ./community-cards-react",
-    "build-server": "npm i ./community-cards-express && nodemon ./community-cards-express",
+    "build-server": "npm i ./community-cards-express && npm run devStart --prefix ./community-cards-express",
     "build-project": "concurrently \"npm run build-server\" \"npm run build-client\""
   },
   "repository": {
@@ -22,5 +22,8 @@
   "dependencies": {
     "community-cards-express": "file:community-cards-express",
     "concurrently": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
