@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-client": "npm run build --prefix ./community-cards-react",
-    "build-server": "nodemon ./community-cards-express",
+    "build-client": "npm i ./community-cards-react && npm run build --prefix ./community-cards-react",
+    "build-server": "npm i ./community-cards-express && nodemon ./community-cards-express",
     "build-project": "concurrently \"npm run build-server\" \"npm run build-client\""
   },
   "repository": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/DavidK1999/community-cards-deployment#readme",
   "dependencies": {
+    "community-cards-express": "file:community-cards-express",
     "concurrently": "^5.1.0"
   }
 }
