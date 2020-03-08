@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "duild-client": "npm run build --prefix community-cards-react",
+    "build-client": "npm run build --prefix community-cards-react",
     "build-server": "nodemon --prefix community-cards-express",
     "build-project": "concurrently \"npm run build-server\" \"npm run build-client\""
   },
