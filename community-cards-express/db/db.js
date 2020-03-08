@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const User = require('../models/user');
 
-const connectionString = process.env.MONGODB_URI
+const connectionString = process.env.MONGODB_URI;
 
 mongoose.connect(connectionString, {
     useNewUrlParser: true,

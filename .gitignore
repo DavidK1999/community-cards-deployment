@@ -1,3 +1,4 @@
 /node_modules
 /community-cards-react/node_modules
 /community-cards-express/node_modules
+.now
