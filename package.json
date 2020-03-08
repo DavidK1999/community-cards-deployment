@@ -24,7 +24,5 @@
     "community-cards-express": "file:community-cards-express",
     "concurrently": "^5.1.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.2"
-  }
+  "devDependencies": {}
 }
