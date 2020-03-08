@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const User = require('../models/user');
 
-const connectionString = process.env.MONGODB_URI;
+const connectionString = "mongodb://localhost/community-cards";
 
 mongoose.connect(connectionString, {
     useNewUrlParser: true,
