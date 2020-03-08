@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-client": "npm run build --prefix community-cards-react",
-    "build-server": "nodemon --prefix community-cards-express",
+    "build-client": "npm run build --prefix ./community-cards-react",
+    "build-server": "nodemon ./community-cards-express",
     "build-project": "concurrently \"npm run build-server\" \"npm run build-client\""
   },
   "repository": {

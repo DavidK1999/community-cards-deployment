@@ -2,7 +2,7 @@
 require('dotenv').config();
 const express = require('express');
 const app = express();
-const port = process.env.PORT;
+const port = 8000
 const cors = require('cors');
 const passport = require('passport');
 const whitelist=['http://localhost:3000']
